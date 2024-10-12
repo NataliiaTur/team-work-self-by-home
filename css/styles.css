@@ -47,6 +47,7 @@ body {
 .header-container {
     display: flex;
     align-items: center;
+    margin-bottom: 25px;
 }
 
 .header-logo {
@@ -163,6 +164,7 @@ body {
     display: flex;
     gap: 35px;
     align-items: center;
+    margin-bottom: 100px;
 }
 
 /* -------------SECTION FEATURE ----------------- */
@@ -173,6 +175,7 @@ body {
 }
 .feature-container {
     display: block;
+    margin-bottom: 50px;
 }
 
 .feature-title {
@@ -228,5 +231,103 @@ body {
     display: block;
     justify-content: center ;
     margin: 0 auto;
+}
 
+/* Section Management */
+
+.management {
+}
+
+.management-container {
+    display: flex;
+    gap: 132px;
+    margin-bottom: 100px;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+.management-list {
+    max-width:  439px;
+}
+
+.managment-text-group {
+    max-width: 486px;
+}
+
+.management-item {}
+
+.managment-heading-text,
+.customer-heading-text {
+    font-weight: 600;
+    font-size: 16px;
+    margin-bottom: 8px;
+}
+
+.managment-heading-title,
+.customer-heading-title {
+    font-weight: 700;
+    font-size: 32px;
+    margin-bottom: 25px;
+}
+
+.text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.63;
+}
+
+.managment-text {
+    margin-bottom: 30px;
+    max-width: 476px;
+}
+
+.managment-title {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.63;
+    margin-bottom: 12px;
+}
+
+.mngt-ttl-accessory {
+    margin-bottom: 25px;
+}
+
+/* Section Customer Support  */
+
+.customer {}
+
+.customer-container {
+display: flex;
+gap: 40px;
+}
+
+.customer-heading-text {
+    padding-top: 41px;
+    margin-bottom: 8px;
+}
+
+.customer-heading-title {
+    margin-bottom: 25px;
+}
+
+.customer-list {
+}
+
+.customer-text {
+    margin-bottom: 30px;
+}
+
+.customer-item:not(:last-child) {
+    margin-bottom: 25px;
 }
