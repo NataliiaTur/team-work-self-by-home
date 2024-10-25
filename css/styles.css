@@ -317,6 +317,10 @@ gap: 40px;
 margin-bottom: 100px;
 }
 
+.customer-text-group {
+    max-width: 486px;
+}
+
 .customer-heading-text {
     padding-top: 41px;
     margin-bottom: 8px;
@@ -355,7 +359,9 @@ margin-bottom: 100px;
     gap: 84px;
 }
 
-.collaborative-text-group {}
+.collaborative-text-group {
+    max-width: 486px;
+}
 
 .collaborative-heading-text {
     margin-bottom: 8px;
@@ -384,5 +390,4 @@ margin-bottom: 100px;
 
 .collaborative-text {
     margin-bottom: 25px;
-    max-width: 440px;
 }
