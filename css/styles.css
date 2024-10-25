@@ -268,14 +268,17 @@ body {
 .management-item {}
 
 .managment-heading-text,
-.customer-heading-text {
+.customer-heading-text, 
+.collaborative-heading-text,
+.collaborative-subtitle {
     font-weight: 600;
     font-size: 16px;
     margin-bottom: 8px;
 }
 
 .managment-heading-title,
-.customer-heading-title {
+.customer-heading-title,
+.collaborative-heading-title {
     font-weight: 700;
     font-size: 32px;
     margin-bottom: 25px;
@@ -285,6 +288,7 @@ body {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.63;
+    color: #22343d;
 }
 
 .managment-text {
@@ -310,6 +314,7 @@ body {
 .customer-container {
 display: flex;
 gap: 40px;
+margin-bottom: 100px;
 }
 
 .customer-heading-text {
@@ -324,10 +329,60 @@ gap: 40px;
 .customer-list {
 }
 
+.customer-item{
+    display: flex;
+}
+
+.customer-icon{
+    margin-right: 30px;
+}
+
 .customer-text {
-    margin-bottom: 30px;
+    margin-bottom: 25px;
 }
 
 .customer-item:not(:last-child) {
     margin-bottom: 25px;
+}
+
+/* ----- section Collaborative ---- */
+
+
+.collaborative {}
+
+.collaborative-container {
+    display: flex;
+    gap: 84px;
+}
+
+.collaborative-text-group {}
+
+.collaborative-heading-text {
+    margin-bottom: 8px;
+}
+
+.collaborative-heading-title {
+    margin-bottom: 25px;
+}
+
+.collaborative-heading-undertext {
+    margin-bottom: 30px;
+    max-width: 434px;
+}
+
+.collaborative-list {}
+
+.collaborative-item {}
+
+.collabor-wrapper-text {
+    min-width: 486px;
+}
+
+.collaborative-subtitle {
+    margin-bottom: 12px;
+}
+
+.collaborative-text {
+    margin-bottom: 25px;
+    max-width: 440px;
 }
