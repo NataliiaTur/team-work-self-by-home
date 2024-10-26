@@ -242,6 +242,8 @@ body {
     display: flex;
     gap: 132px;
     margin-bottom: 100px;
+    align-items: center;
+    justify-content: center;
 }
 
 .visually-hidden {
