@@ -474,19 +474,30 @@ margin-bottom: 100px;
 }
 
 .icon-cloud {
-    fill: #e5c6c6;
+    fill: #ddafaf;
     box-shadow: 2px rgba(23, 58, 86, 0.15);
 }
 
+.staff-avatar {
+    
+}
 
-.staff-avatar {}
+
+.wrapper-icon-cloud {
+    position: relative;
+
+}
 
 .staff-list-item-text {
+    position: absolute;
+    top: 16px;
+    left: 16px;
+    right: 10px;
+    
     font-weight: 500;
     font-size: 16px;
     text-align: center;
     color: #2f281e;
-
 }
 
 .staff-button {
@@ -575,13 +586,17 @@ font-weight: 700;
 
 .container {}
 
-.container-price {}
+.container-price {
+    margin-bottom: 100px;
+    /* background: rgba(188, 208, 229, 0.5); */
+}
 
 .price-title {
     font-weight: 700;
     font-size: 34px;
     color: #22343d;
     text-align: center;
+    margin-bottom: 10px;
 }
 
 .price-text {
@@ -589,9 +604,15 @@ font-weight: 700;
     font-size: 16px;
     color: #22343d;
     text-align: center;
+    margin-bottom: 40px;
 }
 
-.price-list-group {}
+.price-list-group {
+    display: flex;
+    flex-direction: row;
+    gap: 72px;
+ 
+}
 
 .price-item{
     border-radius: 8px;
@@ -599,6 +620,7 @@ font-weight: 700;
     min-height: 456px;
     box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.25);
     background: #fff;
+    text-align: center;
 }
 
 .price-item:nth-child(2) {
@@ -608,31 +630,178 @@ font-weight: 700;
     border-radius: 8px;
     width: 322px;
     min-height: 456px;
+    color: #fff;
 }
 
 .price-item {
     color: #22343d;
     box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.25);
     background-color: #fff;
+    padding: 32px 72px;
 }
 
-.price-subtitle:nth-child(2) {
+.price-subtitle {
     font-weight: 700;
     font-size: 24px;
     line-height: 1.67;
+    color: #22343d;
+    margin-bottom: 8px;
+}
+
+.price-subtitle.two {
+    color: #fff; 
+}
+
+.price-subtitle {
+}
+
+.price-subtext {
+    margin-bottom: 16px;
+}
+
+.price {
+}
+
+.price-list {
+    margin-bottom: 16px;
+    display: flex;
+    position: relative;
+}
+
+.price-item-figure.two, 
+.price-item-doll.two {
     color: #fff;
+}
+
+.price-item-figure {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 76px;
+    line-height: 1.32;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #02897a;
+    
+
+}
+
+.price-item-doll {
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1.25;
+    letter-spacing: 0em;
+    color: #02897a;
+    position: absolute;
+    top: 25px;
+    left: 55px;
+}
+
+.price-item-often {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.188;
+    letter-spacing: 0.01em;
+    color: #afafaf;
+    font-family: "Montserrat", sans-serif;
+}
+
+.price-list-subtext {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+    gap: 16px;
+}
+
+.price-item-subtext {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.375;
+    letter-spacing: 0.01em;
+    color: #22343d;
+    gap: 16px;
     
 }
-.price-subtitle {
+
+.price-button {
     background-color: #02897a;
+    border-radius: 8px;
+    width: 139px;
+    height: 44px;
+    font-weight: 600;
+    font-size: 18px;
+    color: #fff;
+    border: none;
 }
 
-.price-subtext {}
+.price-button.two {
+    background-color: #fff;
+    color: #02897a;
+}
 
-.price {}
+< !-- section Feedback -->
 
-.price-list {}
+.container {}
 
-.prise-item-subtext {}
+.container-feedback {
+    margin-bottom: 100px;
+}
 
-.price-button {}
+.feedback-title {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 1.78;
+    letter-spacing: 0.01em;
+    color: #22343d;
+    text-align: center;
+}
+
+.feedback-text {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.75;
+    letter-spacing: 0.01em;
+    color: #22343d;
+    text-align: center;
+   
+}
+
+.feedback-list-card {
+    display: flex;
+    gap: 64px;
+
+}
+
+.feedback-list-card-item {
+    width: calc((100% - 128px) / 3);
+}
+
+.feedback-list-icons {}
+
+.feedback-icons {}
+
+.feedback-subtext {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.75;
+    letter-spacing: 0.01em;
+    color: #737373;
+}
+
+.wrapper-feedback-content {}
+
+.feedback-link {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.01em;
+    color: #02897a;
+}
+
+.feedback-underlink-text {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.71429;
+    letter-spacing: 0.01em;
+    color: #252b42;
+}
