@@ -13,68 +13,103 @@
         href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,500;700&family=Montserrat:wght@400;500;600;700&family=Poppins:wght@400;500;600;700&family=Roboto:wght@100;400;500;700;900&display=swap"
         rel="stylesheet">
 
-    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/pricing.css">
     <title>Business-promotion - Pricing
     </title>
 </head>
 
 <body>
-    <header>
-        <a href="./index.html"><img src="./images/logo.svg" alt="Logo" width="40" height="36" />Product</a>
-        <nav>
-            <ul>
-                <li><a href="./index.html">Product</a></li>
-                <li><a href="./pricing.html">Pricing</a></li>
-                <li><a href="./customer.html">Customers</a></li>
-                <li><a href="">Resources</a></li>
+<header class="header">
+    <div class="container header-container">
+        <a class="header-logo" href="./index.html"><img src="./images/logo.svg" alt="Logo" width="40"
+                height="36" />Product</a>
+        <nav class="header-nav">
+            <ul class="header-nav-list">
+                <li class="header-nav-item">
+                    <a class="header-nav-link" href="./index.html">Product</a>
+                </li>
+                <li class="header-nav-item">
+                    <a class="header-nav-link" href="./pricing.html">Pricing</a>
+                </li>
+                <li class="header-nav-item">
+                    <a class="header-nav-link" href="./customer.html">Customers</a>
+                </li>
+                <li class="header-nav-item">
+                    <a class="header-nav-link" href="">Resources</a>
+                </li>
             </ul>
         </nav>
-        <ul>
-            <li><button type="button">Sign In</button></li>
-            <li><button type="button">Sign Up</button></li>
+        <ul class="header-btn-list">
+            <li class="header-btn-item">
+                <button class="header-btn" type="button">Sign In</button>
+            </li>
+            <li class="header-btn-item">
+                <button class="header-btn" type="button">Sign Up</button>
+            </li>
         </ul>
-    </header>
+    </div>
+</header>
     <main>
-        <section>
-            <h1>PRICING</h1>
-            <p>Let’s get some real work done here.</p>
-            <p>Prodict is your perfect solution for working. Get started now for free</p>
-            <ul>
-                <li>
-                    <h3>Free</h3>
-                    <p>Brief price description</p>
-                    <h4>0$ Per / month</h4>
-                    <ul>
-                        <li>Only 2 Operators</li>
-                        <li>Notifications</li>
-                        <li>Landing Pages</li>
+    <section>
+        <div class="container container-price">
+            <h1 class="price-title">PRICING</h1>
+            <p class="price-text-one">Let’s get some real work done here.</p>
+            <p class="price-text-two">Prodict is your perfect solution for working. Get started now for free</p>
+            <ul class="price-list-group">
+                <li class="price-item">
+                    <h4 class="price-subtitle">Free</h4>
+                    <p class="price-subtext">Brief price description</p>
+                    <div class="price">
+                        <ul class="price-list">
+                            <li class="price-item-figure">0</li>
+                            <li class="price-item-doll">$</li>
+                            <li class="price-item-often">Per / month</li>
+                        </ul>
+                    </div>
+                    <ul class="price-list-subtext">
+                        <li class="price-item-subtext">Only 2 Operators</li>
+                        <li class="price-item-subtext">Notifications</li>
+                        <li class="price-item-subtext">Landing Pages</li>
                     </ul>
-                    <button type="button">Order Now</button>
+                    <button class="price-button" type="button">Order Now</button>
                 </li>
-                <li>
-                    <h3>Standard</h3>
-                    <p>Brief price description</p>
-                    <h4>5$ Per / month</h4>
-                    <ul>
-                        <li>5+ Operators</li>
-                        <li>Notifications</li>
-                        <li>Landing Pages</li>
+                <li class="price-item">
+                    <h4 class="price-subtitle two">Standard</h4>
+                    <p class="price-subtext">Brief price description</p>
+                    <div class="price">
+                        <ul class="price-list two">
+                            <li class="price-item-figure two">5</li>
+                            <li class="price-item-doll two">$</li>
+                            <li class="price-item-often">Per / month</li>
+                        </ul>
+                    </div>
+                    <ul class="price-list-subtext">
+                        <li class="prise-item-subtext">5+ Operators</li>
+                        <li class="prise-item-subtext">Notifications</li>
+                        <li class="prise-item-subtext">Landing Pages</li>
                     </ul>
-                    <button type="button">Order Now</button>
+                    <button class="price-button two" type="button">Order Now</button>
                 </li>
-                <li>
-                    <h3>Premium</h3>
-                    <p>Brief price description</p>
-                    <h4>10$ Per / month</h4>
-                    <ul>
-                        <li>Only 3 Operators</li>
-                        <li>Notifications</li>
-                        <li>Landing Pages</li>
+                <li class="price-item">
+                    <h4 class="price-subtitle">Premium</h4>
+                    <p class="price-subtext">Brief price description</p>
+                    <div class="price">
+                        <ul class="price-list">
+                            <li class="price-item-figure">10</li>
+                            <li class="price-item-doll">$</li>
+                            <li class="price-item-often">Per / month</li>
+                        </ul>
+                    </div>
+                    <ul class="price-list-subtext">
+                        <li class="prise-item-subtext">10+ Operators</li>
+                        <li class="prise-item-subtext">Notifications</li>
+                        <li class="prise-item-subtext">Landing Pages</li>
                     </ul>
-                    <button type="button">Order Now</button>
+                    <button class="price-button" type="button">Order Now</button>
                 </li>
             </ul>
-        </section>
+        </div>
+    </section>
 
     </main>
 </body>

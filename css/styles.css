@@ -537,6 +537,8 @@ margin-bottom: 100px;
     line-height: 1.63;
     color: #22343d;
     margin-bottom: 40px;
+    max-width: 419px;
+    text-wrap: wrap;
 }
 
 .news-list {
@@ -592,10 +594,9 @@ font-weight: 700;
 }
 
 .price-title {
-    font-weight: 700;
-    font-size: 34px;
+    font-weight: 600;
+    font-size: 24px;
     color: #22343d;
-    text-align: center;
     margin-bottom: 10px;
 }
 
@@ -763,10 +764,9 @@ font-weight: 700;
     letter-spacing: 0.01em;
     color: #22343d;
     text-align: center;
-    margin-bottom: 40px;
     text-wrap: wrap;
     max-width: 413px;
-    align-items: center;
+    margin: 0 auto 40px auto;
    
 }
 

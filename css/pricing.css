@@ -1,0 +1,272 @@
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
+
+ul {
+    padding-left: 0;
+    margin: 0;
+    list-style: none;
+}
+
+img {
+    display: block;
+}
+
+a {
+    text-decoration: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+address {
+    font-style: normal;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    color: #22343d;
+    background-color: #fff;
+}
+
+.container {
+    width: 1140px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.header {}
+
+.header-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.header-logo {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 0.93;
+    color: #173a56;
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    margin-right: 237px;
+}
+
+.header-nav {
+    margin-right: 24px;
+}
+
+.header-nav-list {
+    display: flex;
+    gap: 30px;
+}
+
+/* .header-nav-item:not(:last-child) {
+    margin-right: 30px;
+} */
+
+.header-nav-link {
+    font-size: 16px;
+    line-height: 1.75;
+    color: #22343d;
+    display: block;
+    padding: 26px 0;
+}
+
+.header-btn-list {
+    display: flex;
+    gap: 24px;
+}
+
+.header-btn-item {}
+
+.header-btn {
+    font-weight: 600;
+    font-size: 16px;
+    text-align: center;
+    color: #173a56;
+    background-color: transparent;
+    min-width: 102px;
+    height: 42px;
+    border-radius: 4px;
+    border: 1px solid #bcd0e5;
+}
+
+.header-btn:hover,
+.header-btn:focus {
+    color: #fff;
+    background-color: #02897a;
+    border: none;
+}
+
+/* --- Price---- */
+
+.container {}
+
+.container-price {
+    margin-bottom: 100px;
+    /* background: rgba(188, 208, 229, 0.5); */
+}
+
+.price-title {
+    font-weight: 700;
+    font-size: 34px;
+    color: #22343d;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.price-text-one {
+    font-weight: 700;
+    font-size: 40px;
+    text-align: center;
+    color: #22343d;
+    margin: 0 auto 16px auto;
+}
+
+.price-text-two {
+    font-weight: 500;
+    font-size: 16px;
+    text-align: center;
+    color: #22343d;
+    margin: 0 auto 49px auto;
+}
+
+.price-list-group {
+    display: flex;
+    flex-direction: row;
+    gap: 72px;
+
+}
+
+.price-item {
+    border-radius: 8px;
+    width: 322px;
+    min-height: 456px;
+    box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.25);
+    background: #fff;
+    text-align: center;
+}
+
+.price-item:nth-child(2) {
+    color: #22343d;
+    box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.25);
+    background: #02897a;
+    border-radius: 8px;
+    width: 322px;
+    min-height: 456px;
+    color: #fff;
+}
+
+.price-item {
+    color: #22343d;
+    box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.25);
+    background-color: #fff;
+    padding: 32px 72px;
+}
+
+.price-subtitle {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1.67;
+    color: #22343d;
+    margin-bottom: 8px;
+}
+
+.price-subtitle.two {
+    color: #fff;
+}
+
+.price-subtitle {}
+
+.price-subtext {
+    margin-bottom: 16px;
+}
+
+.price {}
+
+.price-list {
+    margin-bottom: 16px;
+    display: flex;
+    position: relative;
+}
+
+.price-item-figure.two,
+.price-item-doll.two {
+    color: #fff;
+}
+
+.price-item-figure {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 76px;
+    line-height: 1.32;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #02897a;
+
+
+}
+
+.price-item-doll {
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1.25;
+    letter-spacing: 0em;
+    color: #02897a;
+    position: absolute;
+    top: 25px;
+    left: 55px;
+}
+
+.price-item-often {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.188;
+    letter-spacing: 0.01em;
+    color: #afafaf;
+    font-family: "Montserrat", sans-serif;
+}
+
+.price-list-subtext {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+    gap: 16px;
+}
+
+.price-item-subtext {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.375;
+    letter-spacing: 0.01em;
+    color: #22343d;
+    gap: 16px;
+
+}
+
+.price-button {
+    background-color: #02897a;
+    border-radius: 8px;
+    width: 139px;
+    height: 44px;
+    font-weight: 600;
+    font-size: 18px;
+    color: #fff;
+    border: none;
+}
+
+.price-button.two {
+    background-color: #fff;
+    color: #02897a;
+}
