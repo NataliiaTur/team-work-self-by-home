@@ -70,9 +70,12 @@ body {
     gap: 30px;
 }
 
-/* .header-nav-item:not(:last-child) {
-    margin-right: 30px;
-} */
+.header-nav-item.current {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.75;
+    color: #22343d;
+}
 
 .header-nav-link {
     font-size: 16px;
