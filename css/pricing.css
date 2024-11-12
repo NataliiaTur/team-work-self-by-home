@@ -270,3 +270,190 @@ body {
     background-color: #fff;
     color: #02897a;
 }
+
+/* section promo */
+
+.container {}
+
+.container-promo {
+    background-color: #02897a;
+    border-radius: 32px;
+    padding-right: 46px;
+    box-shadow: 0 0 32px 0 rgba(0, 0, 0, 0.15);
+    background-image: url(/images/promo-graphics.svg);
+    background-repeat: no-repeat;
+    background-position: 572px;
+    background-size: 351px 331px;
+    max-width: 968px;
+
+    margin-bottom: 100px;
+}
+
+.wrapper-promo {
+    padding-top: 49px;
+    padding-bottom: 56px;
+    padding-left: 51px;
+}
+
+.promo-title {
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 1.52;
+    color: #fff;
+    margin-bottom: 46px;
+    max-width: 497px;
+    text-wrap: wrap;
+}
+
+.promo-button {
+    border-radius: 8px;
+    width: 150px;
+    height: 50px;
+    background-color: #fff;
+    font-weight: 600;
+    font-size: 20px;
+    color: #02897a;
+    border: none;
+}
+
+/* ---footer--- */
+
+.container {}
+
+.footer-container {}
+
+.footer-block {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.footer-logo {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 0.93;
+    color: #173a56;
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    margin: 0 auto 18px auto;
+}
+
+.footer-list-social {
+    display: flex;
+    gap: 16px;
+
+}
+
+.footer-item-icons {
+    width: 40px;
+    height: 40px;
+}
+
+.footer-social-link {
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-color: #edfffc;
+}
+
+.footer-icons {
+    stroke-width: 2px;
+    stroke: #02897a;
+    fill: #edfffc;
+}
+
+.footer-list-resource {}
+
+.footer-item-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.5;
+    color: #22343d;
+}
+
+.footer-item-link {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 2.19;
+    color: #22343d;
+}
+
+.footer-list-link {}
+
+.footer-list-stuff {}
+
+.footer-stuff-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.5;
+    color: #22343d;
+}
+
+.footer-text-to-input {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.5;
+    color: #22343d;
+    margin-bottom: 30px;
+    max-width: 260px;
+}
+
+.footer-form-block {}
+
+.footer-form {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    position: relative;
+}
+
+.input-form-icon {
+    position: absolute;
+    top: 10px;
+    left: 12px;
+    fill: #02897a;
+}
+
+.footer-form-input {
+    border: 1px solid #bcd0e5;
+    border-radius: 4px;
+    min-width: 325px;
+    height: 48px;
+
+    padding-left: 42px;
+}
+
+.footer-form-input::placeholder {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.75;
+    color: #02897a;
+}
+
+.footer-form-button {
+    max-width: 131px;
+    height: 39px;
+    background-color: #02897a;
+    border-radius: 4px;
+
+    font-weight: 700;
+    font-size: 16px;
+    text-align: center;
+    color: #fff;
+    border: none;
+    margin-bottom: 16px;
+}
+
+.footer-copyright-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.9;
+    color: #22343d;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 40px;
+}
